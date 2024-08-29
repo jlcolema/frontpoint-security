@@ -1,0 +1,516 @@
+/*--------------------------------------
+	Content
+--------------------------------------*/
+
+// Notes...
+
+
+		p{
+			margin:10px 0;
+			padding:0;
+		}
+		table{
+			border-collapse:collapse;
+		}
+		h1,h2,h3,h4,h5,h6{
+			display:block;
+			margin:0;
+			padding:0;
+		}
+		img,a img{
+			border:0;
+			height:auto;
+			outline:none;
+			text-decoration:none;
+		}
+		body,#bodyTable,#bodyCell{
+			height:100%;
+			margin:0;
+			padding:0;
+			width:100%;
+		}
+		.mcnPreviewText{
+			display:none !important;
+		}
+		#outlook a{
+			padding:0;
+		}
+		img{
+			-ms-interpolation-mode:bicubic;
+		}
+		table{
+			mso-table-lspace:0pt;
+			mso-table-rspace:0pt;
+		}
+		.ReadMsgBody{
+			width:100%;
+		}
+		.ExternalClass{
+			width:100%;
+		}
+		p,a,li,td,blockquote{
+			mso-line-height-rule:exactly;
+		}
+		a[href^=tel],a[href^=sms]{
+			color:inherit;
+			cursor:default;
+			text-decoration:none;
+		}
+		p,a,li,td,body,table,blockquote{
+			-ms-text-size-adjust:100%;
+			-webkit-text-size-adjust:100%;
+		}
+		.ExternalClass,.ExternalClass p,.ExternalClass td,.ExternalClass div,.ExternalClass span,.ExternalClass font{
+			line-height:100%;
+		}
+		a[x-apple-data-detectors]{
+			color:inherit !important;
+			text-decoration:none !important;
+			font-size:inherit !important;
+			font-family:inherit !important;
+			font-weight:inherit !important;
+			line-height:inherit !important;
+		}
+		.templateContainer{
+			max-width:600px !important;
+		}
+		a.mcnButton{
+			display:block;
+		}
+		.mcnImage{
+			vertical-align:bottom;
+		}
+		.mcnTextContent{
+			word-break:break-word;
+		}
+		.mcnTextContent img{
+			height:auto !important;
+		}
+		.mcnDividerBlock{
+			table-layout:fixed !important;
+		}
+	/*
+	@tab Page
+	@section Heading 1
+	@style heading 1
+	*/
+		h1{
+			color:#c6ad24;
+			font-family:'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+			font-size:28px;
+			font-style:normal;
+			font-weight:bold;
+			line-height:150%;
+			letter-spacing:normal;
+			text-align:center;
+			margin-bottom: 15px;
+		}
+	/*
+	@tab Page
+	@section Heading 2
+	@style heading 2
+	*/
+		h2{
+			color:#c6ad24;
+			font-family:'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+			font-size:19px;
+			font-style:normal;
+			font-weight:bold;
+			line-height:114%;
+			letter-spacing:normal;
+			text-align:center;
+			margin-bottom: 3px;
+		}
+	/*
+	@tab Page
+	@section Heading 3
+	@style heading 3
+	*/
+		h3{
+			color:#000000;
+			font-family:'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+			font-size:22px;
+			font-style:normal;
+			font-weight:bold;
+			line-height:150%;
+			letter-spacing:normal;
+			text-align:center;
+		}
+	/*
+	@tab Page
+	@section Heading 4
+	@style heading 4
+	*/
+		h4{
+			color:#000000;
+			font-family:'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+			font-size:20px;
+			font-style:italic;
+			font-weight:normal;
+			line-height:125%;
+			letter-spacing:normal;
+			text-align:center;
+		}
+	/*
+	@tab Header
+	@section Header Container Style
+	*/
+		#templateHeader{
+			background-color:#ffffff;
+			background-image:none;
+			background-repeat:no-repeat;
+			background-position:center;
+			background-size:cover;
+			border-top:0;
+			border-bottom:0;
+			padding-top:0;
+			padding-bottom:0;
+		}
+	/*
+	@tab Header
+	@section Header Interior Style
+	*/
+		.headerContainer{
+			background-color: #58bc63;
+			background-image:none;
+			background-repeat:no-repeat;
+			background-position:center;
+			background-size:cover;
+			border-top:0;
+			border-bottom:0;
+			padding-top:18px;
+			padding-bottom:18px;
+		}
+	/*
+	@tab Header
+	@section Header Text
+	*/
+		.headerContainer .mcnTextContent,.headerContainer .mcnTextContent p{
+			color:#ffffff;
+			font-family:'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+			font-size:16px;
+			line-height:150%;
+			text-align:center;
+		}
+
+	/*
+	@tab Header
+	@section Header Link
+	*/
+		.headerContainer .mcnTextContent a,.headerContainer .mcnTextContent p a{
+			color:#ffffff;
+			font-weight:normal;
+			text-decoration:underline;
+		}
+	/*
+	@tab Body
+	@section Body Container Style
+	*/
+		#templateBody{
+			background-color:#ffffff;
+			background-image:none;
+			background-repeat:repeat;
+			background-position:50% 50%;
+			background-size:auto;
+			border-top:0;
+			border-bottom:0;
+			padding-top:0px;
+			padding-bottom:60px;
+		}
+	/*
+	@tab Body
+	@section Body Interior Style
+	*/
+		.bodyContainer{
+			background-color:#transparent;
+			background-image:none;
+			background-repeat:no-repeat;
+			background-position:center;
+			background-size:cover;
+			border-top:0;
+			border-bottom:0;
+			padding-top:0;
+			padding-bottom:0;
+		}
+	/*
+	@tab Body
+	@section Body Text
+	*/
+		.bodyContainer .mcnTextContent,.bodyContainer .mcnTextContent p{
+			color:#000000;
+			font-family:'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+			font-size:14px;
+			line-height:150%;
+			text-align:center;
+		}
+	/*
+	@tab Body
+	@section Body Link
+	*/
+		.bodyContainer .mcnTextContent a,.bodyContainer .mcnTextContent p a{
+			color:#000000;
+			font-weight:normal;
+			text-decoration:underline;
+		}
+
+	/*
+	@tab Footer
+	@section Footer Style
+	*/
+		#templateFooter{
+			background-color:#ffffff;
+			background-image:none;
+			background-repeat:no-repeat;
+			background-position:center;
+			background-size:cover;
+			border-top:0;
+			border-bottom:0;
+			padding-top:0;
+			padding-bottom:0;
+		}
+	/*
+	@tab Footer
+	@section Footer Interior Style
+	*/
+		.footerContainer{
+			background-color:#eaeaeb;
+			background-image:none;
+			background-repeat:no-repeat;
+			background-position:center;
+			background-size:cover;
+			border-top:0;
+			border-bottom:0;
+			padding-top:23px;
+			padding-bottom:27px;
+			padding-left: 30px;
+			padding-right: 30px;
+		}
+	/*
+	@tab Footer
+	@section Footer Text
+	*/
+		.footerContainer .mcnTextContent,.footerContainer .mcnTextContent p{
+			color:#000000;
+			font-family:'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+			font-size:10px;
+			line-height:150%;
+			text-align:left;
+		}
+	/*
+	@tab Footer
+	@section Footer Link
+	*/
+		.footerContainer .mcnTextContent a,.footerContainer .mcnTextContent p a{
+			color:#000000;
+			font-weight:normal;
+			text-decoration:underline;
+		}
+	@media only screen and (min-width:768px){
+		.templateContainer{
+			width:600px !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+		body,table,td,p,a,li,blockquote{
+			-webkit-text-size-adjust:none !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+		body{
+			width:100% !important;
+			min-width:100% !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+		.mcnImage{
+			width:100% !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+		.mcnCartContainer,.mcnCaptionTopContent,.mcnRecContentContainer,.mcnCaptionBottomContent,.mcnTextContentContainer,.mcnBoxedTextContentContainer,.mcnImageGroupContentContainer,.mcnCaptionLeftTextContentContainer,.mcnCaptionRightTextContentContainer,.mcnCaptionLeftImageContentContainer,.mcnCaptionRightImageContentContainer,.mcnImageCardLeftTextContentContainer,.mcnImageCardRightTextContentContainer,.mcnImageCardLeftImageContentContainer,.mcnImageCardRightImageContentContainer{
+			max-width:100% !important;
+			width:100% !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+		.mcnBoxedTextContentContainer{
+			min-width:100% !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+		.mcnImageGroupContent{
+			padding:9px !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+		.mcnCaptionLeftContentOuter .mcnTextContent,.mcnCaptionRightContentOuter .mcnTextContent{
+			padding-top:9px !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+
+		.header-phone-number .mcnImageGroupContent {
+
+			padding-top: 4px !important;
+
+		}
+
+		.mcnCaptionBottomContent:first-child {
+			border-color: transparent !important;
+		}
+
+		.mcnCaptionBottomContent:first-child .mcnButtonBlock {
+
+			border-bottom: 1px solid #cccccc !important;
+
+		}
+
+		.mcnCaptionBottomContent:first-child .mcnButtonBlock .mcnButtonBlockInner {
+
+			padding-bottom: 24px !important;
+
+		}
+
+		.mcnImageCardTopImageContent,.mcnCaptionBottomContent:last-child .mcnCaptionBottomImageContent,.mcnCaptionBlockInner .mcnCaptionTopContent:last-child .mcnTextContent{
+			padding-top:18px !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+		.mcnImageCardBottomImageContent{
+			// padding-bottom:9px !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+		.mcnImageGroupBlockInner{
+			// padding-top:0 !important;
+			// padding-bottom:0 !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+		.mcnImageGroupBlockOuter{
+			// padding-top:9px !important;
+			// padding-bottom:9px !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+		.mcnTextContent,.mcnBoxedTextContentColumn{
+			// padding-right:18px !important;
+			// padding-left:18px !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+		.mcnImageCardLeftImageContent,.mcnImageCardRightImageContent{
+			// padding-right:18px !important;
+			// padding-bottom:0 !important;
+			// padding-left:18px !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+		.mcpreview-image-uploader{
+			display:none !important;
+			width:100% !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+	/*
+	@tab Mobile Styles
+	@section Heading 1
+	@tip Make the first-level headings larger in size for better readability on small screens.
+	*/
+		h1{
+
+			font-size: 24px !important;
+			// line-height:125% !important;
+		}
+
+		.product-one-price span {
+
+			font-size: 56px !important;
+
+		}
+
+		.while-supplies-last span {
+
+			font-size: 16px !important;
+			letter-spacing: 5.25px !important;
+
+		}
+
+}	@media only screen and (max-width: 480px){
+	/*
+	@tab Mobile Styles
+	@section Heading 2
+	@tip Make the second-level headings larger in size for better readability on small screens.
+	*/
+		h2{
+			// font-size:26px !important;
+			// line-height:125% !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+	/*
+	@tab Mobile Styles
+	@section Heading 3
+	@tip Make the third-level headings larger in size for better readability on small screens.
+	*/
+		h3{
+			// font-size:20px !important;
+			// line-height:150% !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+	/*
+	@tab Mobile Styles
+	@section Heading 4
+	@tip Make the fourth-level headings larger in size for better readability on small screens.
+	*/
+		h4{
+			// font-size:18px !important;
+			// line-height:150% !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+	/*
+	@tab Mobile Styles
+	@section Boxed Text
+	@tip Make the boxed text larger in size for better readability on small screens. We recommend a font size of at least 16px.
+	*/
+		.mcnBoxedTextContentContainer .mcnTextContent,.mcnBoxedTextContentContainer .mcnTextContent p{
+			// font-size:14px !important;
+			// line-height:150% !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+	/*
+	@tab Mobile Styles
+	@section Header Text
+	@tip Make the header text larger in size for better readability on small screens.
+	*/
+		.headerContainer .mcnTextContent,.headerContainer .mcnTextContent p{
+			// font-size:16px !important;
+			// line-height:150% !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+	/*
+	@tab Mobile Styles
+	@section Body Text
+	@tip Make the body text larger in size for better readability on small screens. We recommend a font size of at least 16px.
+	*/
+		.bodyContainer .mcnTextContent,.bodyContainer .mcnTextContent p{
+			// font-size:16px !important;
+			// line-height:150% !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+	/*
+	@tab Mobile Styles
+	@section Footer Text
+	@tip Make the footer content text larger in size for better readability on small screens.
+	*/
+		.footerContainer .mcnTextContent,.footerContainer .mcnTextContent p{
+			// font-size:14px !important;
+			// line-height:150% !important;
+		}
+
+}
